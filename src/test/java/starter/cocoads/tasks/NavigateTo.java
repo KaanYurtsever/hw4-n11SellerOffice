@@ -10,4 +10,11 @@ public class NavigateTo {
         return Task.where("{0} opens the cocoads login page",
                 Open.browserOn().the(CocoAdsHomePage.class));
     }
+
+
+    public static Performable then11SellerOfficePage() {
+        return Task.where("{0} opens the cocoads login page",
+                Open.browserOn().the(n11SellerOfficeHomePage.class));
+
+    }
 }
